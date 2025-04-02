@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "puppeteer-core": "^24.4.0"
+  },
+  "name": "thirdweb-automation-tx-token-bot",
+  "description": "Tools: \r - [Node.JS LTS](https://nodejs.org/en)\r - GOOGLE CHROME\r - [METAMASK](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?utm_source=www.google.com)",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yunnie-pin/thirdweb-automation-tx-token-bot.git"
+  },
+  "keywords": [
+    "puppeter"
+  ],
+  "author": "yunnie-pin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yunnie-pin/thirdweb-automation-tx-token-bot/issues"
+  },
+  "homepage": "https://github.com/Yunnie-pin/thirdweb-automation-tx-token-bot#readme"
+}
