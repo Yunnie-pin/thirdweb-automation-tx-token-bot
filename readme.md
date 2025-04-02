@@ -1,3 +1,6 @@
+# THIRDWEB-AUTOMATION-TX-TOKEN-BOT
+
+
 Tools: 
 - [Node.JS LTS](https://nodejs.org/en)
 - GOOGLE CHROME
@@ -25,3 +28,5 @@ Tools:
     node main.js
 ``` 
 
+SUPPORT : 
+- WINDOWS
