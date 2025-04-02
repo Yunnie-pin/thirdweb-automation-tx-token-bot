@@ -17,6 +17,14 @@ const getContractAddress = () => {
   });
 };
 
+const getSlugChain = () => {
+  return new Promise((resolve) => {
+    rl.question("Masukkan slug chain: ", (input) => {
+      resolve(input.trim());
+    });
+  });
+}
+
 // Fungsi untuk mendapatkan jumlah pengulangan dari pengguna
 const getBurnCount = () => {
   return new Promise((resolve) => {
@@ -316,6 +324,7 @@ const transferMethod = async (page, browser) => {
 (async () => {
 
   const contractAddress = await getContractAddress();
+  const slugChain = await getSlugChain();
 
   const browser = await puppeteer.connect({
     browserURL: "http://localhost:9222",
@@ -325,7 +334,7 @@ const transferMethod = async (page, browser) => {
 
   const page = await browser.newPage();
   await page.goto(
-    "https://thirdweb.com/tea-sepolia/" + contractAddress + "/tokens",
+    "https://thirdweb.com/" + slugChain + "/" + contractAddress + "/tokens",
     {
       waitUntil: "networkidle2",
     }
